@@ -1,0 +1,129 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: lightcyan
+}
+
+main{
+    font-size: 16px;
+    max-width: 80%;
+    margin: .5rem auto;
+    border-radius: .3rem;
+    padding: 2rem;
+    box-shadow: 0rem 0rem .5rem 0rem black;
+    background: rgb(177, 218, 218)
+}
+
+#theme{
+    margin: 1rem;
+    height: 2.5rem;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: white;
+    border: none;
+    border-radius: .3rem;
+    background-color: rgb(4, 102, 102);
+}
+
+#theme:hover{
+    cursor: pointer;
+    background-color: rgb(3, 71, 71);
+}
+
+#taskForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+#taskInput{
+    width: 80%;
+    border-radius: .3rem;
+}
+
+form button{
+    width: 15%;
+    height: 2.5rem;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: white;
+    border: none;
+    border-radius: .3rem;
+    background-color: rgb(4, 102, 102);
+}
+
+form button:hover{
+    cursor: pointer;
+    background-color: rgb(3, 71, 71);
+}
+
+h1{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mainDivList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.li{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.childDivList{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+
+.childDivList button{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: white;
+    width: 6rem;
+    border: none;
+    border-radius: .3rem;
+    padding: .3rem;
+}
+
+.childDivList button:hover{
+    cursor: pointer;
+}
+
+.edit-btn{
+    background-color: blue;
+}
+
+.edit-btn:hover{
+    background-color: darkblue;
+}
+
+.delete-btn{
+    background-color: red;
+}
+
+.delete-btn:hover{
+    background-color: darkred;
+}
+
+.dark-mode {
+    background: rgba(0, 0, 0, 0.712)
+}
+
+.dark-mode h1{
+    color: white;
+}
+
+.dark-mode li{
+    color: white;
+}
+
+.dark-mode main{
+    background: rgba(0, 0, 0, 0.301);
+}
